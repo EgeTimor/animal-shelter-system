@@ -19,7 +19,7 @@ The architecture is esentially split into five primary classes with specific res
 * **Data Structures**: Dynamic arrays (`std::vector`) are utilized instead of static arrays to seamlessly handle the fluctuating number of shelter users and animals.
 * **Recursive Search**: Implements a private recursive helper function to efficiently search through the dynamic array of animals by name.
 
-## Development Challenges Overcome
+## Challenges Within Development 
 * Refactored the initial architecture from static arrays to dynamic `std::vector` implementations to better manage memory.
 * Resolved linking errors in the build process by updating the `CMakeLists.txt` file to properly include all source class files.
 * Debugged and corrected an object instantiation order issue that was causing the static total animal counter to miscalculate upon initialization.
